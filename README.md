@@ -8,7 +8,7 @@
 
 | Главное меню | Конструктор сборки |
 | :---: | :---: |
-| ![Main Menu](screenshots/main_menu.png) | ![Builder Menu](screenshots/builder_menu.png) |
+| ![Main Menu](<img width="1278" height="759" alt="изображение" src="https://github.com/user-attachments/assets/09ce5875-6e45-4e19-9f75-b05fe730be93" />) | ![Builder Menu](<img width="1277" height="759" alt="изображение" src="https://github.com/user-attachments/assets/6f607972-6b3e-45fb-9ddd-e424cfdf32bb" />) |
 
 ---
 
@@ -24,9 +24,9 @@
 
 ## 🚀 Быстрый старт и установка
 
-1. Перейдите в раздел **[Releases](../../releases)** справа и скачайте последний архив с лаунчером (`.zip`).
+1. Перейдите в раздел **[Releases](../../releases)** справа и скачайте последний файл WowLK 3.3.5a.exe (`.exe`).
 2. Распакуйте содержимое архива **в корневую папку с установленной игрой World of Warcraft 3.3.5a** (туда, где находится оригинальный файл `Wow.exe`).
-3. Запустите исполняемый файл **`WOW_launcher.exe`**.
+3. Запустите исполняемый файл **`WowLK 3.3.5a.exe`**.
 4. Выберите готовый пресет в главном меню или перейдите в «Конструктор сборки» для тонкой настройки графики и модов.
 
 ---
