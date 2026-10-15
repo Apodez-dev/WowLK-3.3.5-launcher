@@ -565,6 +565,34 @@ namespace WOW_launcher
                 };
             }
 
+            // Взаимоисключение для загрузочных фонов (L и R)
+            if (hdCheckBoxes.ContainsKey("L") && hdCheckBoxes.ContainsKey("R"))
+            {
+                hdCheckBoxes["L"].CheckedChanged += (s, e) => {
+                    if (hdCheckBoxes["L"].Checked)
+                    {
+                        hdCheckBoxes["R"].Checked = false;
+                        hdCheckBoxes["R"].Enabled = false;
+                    }
+                    else
+                    {
+                        hdCheckBoxes["R"].Enabled = true;
+                    }
+                };
+
+                hdCheckBoxes["R"].CheckedChanged += (s, e) => {
+                    if (hdCheckBoxes["R"].Checked)
+                    {
+                        hdCheckBoxes["L"].Checked = false;
+                        hdCheckBoxes["L"].Enabled = false;
+                    }
+                    else
+                    {
+                        hdCheckBoxes["L"].Enabled = true;
+                    }
+                };
+            }
+
             // Кнопка сохранения настроек
             Button btnSaveConfig = new Button
             {
