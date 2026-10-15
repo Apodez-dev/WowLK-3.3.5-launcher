@@ -340,7 +340,6 @@ namespace WOW_launcher
             btnDonate.FlatAppearance.BorderSize = 1;
             btnDonate.FlatAppearance.BorderColor = Color.FromArgb(140, 110, 70);
 
-            // Эффект плавного изменения цвета при наведении
             btnDonate.MouseEnter += (s, e) => {
                 btnDonate.BackColor = Color.FromArgb(200, 25, 35, 60);
                 btnDonate.ForeColor = Color.FromArgb(248, 183, 0);
@@ -350,7 +349,6 @@ namespace WOW_launcher
                 btnDonate.ForeColor = Color.FromArgb(210, 190, 140);
             };
 
-            // Открытие страницы Donatty
             btnDonate.Click += (s, e) => {
                 PlayClickSound();
                 try
@@ -360,6 +358,44 @@ namespace WOW_launcher
                 catch
                 {
                     MessageBox.Show("Не удалось открыть ссылку на Donatty в браузере.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            };
+
+            // Кнопка GitHub рядом с донатом (левый нижний угол)
+            Button btnGitHub = new Button
+            {
+                Text = "GitHub",
+                Font = wowFontButton,
+                ForeColor = Color.FromArgb(210, 190, 140),
+                BackColor = Color.FromArgb(150, 15, 23, 42),
+                FlatStyle = FlatStyle.Flat,
+                Size = new Size(180, 62),
+                Location = new Point(324, 624),
+                Anchor = AnchorStyles.Bottom | AnchorStyles.Left,
+                Cursor = customCursor ?? Cursors.Hand,
+                UseCompatibleTextRendering = true
+            };
+            btnGitHub.FlatAppearance.BorderSize = 1;
+            btnGitHub.FlatAppearance.BorderColor = Color.FromArgb(140, 110, 70);
+
+            btnGitHub.MouseEnter += (s, e) => {
+                btnGitHub.BackColor = Color.FromArgb(200, 25, 35, 60);
+                btnGitHub.ForeColor = Color.FromArgb(248, 183, 0);
+            };
+            btnGitHub.MouseLeave += (s, e) => {
+                btnGitHub.BackColor = Color.FromArgb(150, 15, 23, 42);
+                btnGitHub.ForeColor = Color.FromArgb(210, 190, 140);
+            };
+
+            btnGitHub.Click += (s, e) => {
+                PlayClickSound();
+                try
+                {
+                    Process.Start(new ProcessStartInfo("https://github.com/Apodez-dev/WowLK-3.3.5-launcher") { UseShellExecute = true });
+                }
+                catch
+                {
+                    MessageBox.Show("Не удалось открыть ссылку на GitHub в браузере.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             };
 
@@ -389,6 +425,7 @@ namespace WOW_launcher
             mainMenuControls.Add(btnMode3);
             mainMenuControls.Add(btnCustomMenu);
             mainMenuControls.Add(btnDonate);
+            mainMenuControls.Add(btnGitHub);
             mainMenuControls.Add(btnRunLastConfig);
 
             foreach (var ctrl in mainMenuControls)
@@ -432,7 +469,6 @@ namespace WOW_launcher
             builderMenuControls.Add(chkVulkanReshade);
             builderMenuControls.Add(chkCleanCache);
 
-            // Логика взаимоисключения режимов рендеринга
             chkReshade.CheckedChanged += (s, e) => {
                 if (chkReshade.Checked)
                 {
