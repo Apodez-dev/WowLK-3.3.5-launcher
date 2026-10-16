@@ -42,7 +42,7 @@
 
 2. Разместите (`.exe`) **в корневую папку с установленной игрой World of Warcraft 3.3.5a** (туда, где находится `Wow.exe`).
 3. **Установка HD-текстур и графических компонентов:**
-   * Скачайте пак ресурcов и текстур с [Google Диска]([https://drive.google.com](https://drive.google.com/file/d/1VYtA-wLUjm_SVBZlHxyf8u3fAx5z8B_j/view?usp=sharing).
+   * Скачайте пак ресурcов и текстур с [Google Диска]([https://drive.google.com](https://drive.google.com/file/d/1VYtA-wLUjm_SVBZlHxyf8u3fAx5z8B_j/view?usp=sharing)).
    * Поместите скачанные `.mpq` файлы в папку `Data/ruRU` внутри вашего клиента игры.
    * Папки `ReShade`, `Reshade+vulkan` и `Vulkan` скопируйте непосредственно в корень игры (рядом с `Wow.exe`).
 4. Запустите файл **`WowLK 3.3.5a.exe`**.
