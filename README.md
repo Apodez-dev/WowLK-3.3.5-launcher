@@ -6,16 +6,12 @@
 
 ## 📸 Скриншоты интерфейса
 
-### Главное меню
-<img width="1278" alt="Главное меню лаунчера" src="https://github.com/user-attachments/assets/09ce5875-6e45-4e19-9f75-b05fe730be93" />
-
 ### Конструктор сборки
 <img width="1277" alt="Конструктор сборки" src="https://github.com/user-attachments/assets/6f607972-6b3e-45fb-9ddd-e424cfdf32bb" />
 
 ---
 
 ### Игровой процесс с HD-модификациями и шейдерами
-<img width="1345" alt="Screen1" src="https://github.com/user-attachments/assets/134ed313-f785-4332-81be-e741f5879615" />
 <img width="1719" alt="Screen3" src="https://github.com/user-attachments/assets/1690c754-49d9-4e42-8b47-18bc7967a86b" />
 <img width="1719" alt="Screen4" src="https://github.com/user-attachments/assets/f8326092-a237-40fb-ac7b-62eb1085a53c" />
 
