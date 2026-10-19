@@ -15,7 +15,6 @@
 ---
 
 ### Игровой процесс с HD-модификациями и шейдерами
-<img width="1345" alt="Screen1" src="https://github.com/user-attachments/assets/134ed313-f785-4332-81be-e741f5879615" />
 <img width="1719" alt="Screen3" src="https://github.com/user-attachments/assets/1690c754-49d9-4e42-8b47-18bc7967a86b" />
 <img width="1719" alt="Screen4" src="https://github.com/user-attachments/assets/f8326092-a237-40fb-ac7b-62eb1085a53c" />
 
@@ -60,18 +59,6 @@
 
 ---
 
-## ☕ Поддержать разработку
-
-Если вам нравится этот проект и вы хотите поддержать его дальнейшее развитие:
-- **Donatty:** [donatty.com/apodez](https://donatty.com/apodez)
-
----
-
-## Благодарности и сторонние материалы
-- **ReShade-пресет и конфигурация:** Основано на гайде и сборке с [форума WoW Circle (тема 1220586)](https://forum.wowcircle.com/showthread.php?t=1220586).
-- **HD-текстуры и модификации:** Используются патчи и наработки с [форума WoW Circle (тема 1047800)](https://forum.wowcircle.com/showthread.php?t=1047800).
-
----
 
 ## 📄 Лицензия
 
