@@ -6,9 +6,6 @@
 
 ## 📸 Скриншоты интерфейса
 
-### Главное меню
-<img width="1278" alt="Главное меню лаунчера" src="https://github.com/user-attachments/assets/09ce5875-6e45-4e19-9f75-b05fe730be93" />
-
 ### Конструктор сборки
 <img width="1277" alt="Конструктор сборки" src="https://github.com/user-attachments/assets/6f607972-6b3e-45fb-9ddd-e424cfdf32bb" />
 
